@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 680" role="img" aria-labelledby="title desc">
+  <title id="title">غلاف الأدب الكبير</title>
+  <desc id="desc">غلاف أخضر داكن مزخرف بالذهب لكتاب الأدب الكبير لابن المقفع</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#092e2a"/><stop offset="1" stop-color="#164d3f"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#f4dfa0"/><stop offset="1" stop-color="#c69a4b"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M17 2 32 17 17 32 2 17Z" fill="none" stroke="#d8bd78" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="480" height="680" rx="22" fill="url(#bg)"/>
+  <rect width="480" height="680" rx="22" fill="url(#grid)"/>
+  <rect x="23" y="23" width="434" height="634" rx="14" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <rect x="37" y="37" width="406" height="606" rx="10" fill="none" stroke="#d8bd78" stroke-opacity=".48"/>
+  <circle cx="240" cy="215" r="91" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="240" cy="215" r="76" fill="none" stroke="#d8bd78" stroke-opacity=".5"/>
+  <path d="M240 137 258 197 318 215 258 233 240 293 222 233 162 215 222 197Z" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M240 165v100M190 215h100M205 180l70 70m0-70-70 70" stroke="#d8bd78" stroke-opacity=".45"/>
+  <text x="240" y="366" fill="#f7e8ba" text-anchor="middle" font-family="serif" font-size="47" font-weight="700" direction="rtl">الأدب الكبير</text>
+  <path d="M115 397h250" stroke="#d4b56d" stroke-width="2"/>
+  <text x="240" y="443" fill="#e6d29b" text-anchor="middle" font-family="serif" font-size="25" direction="rtl">عبد الله بن المقفع</text>
+  <text x="240" y="584" fill="#d8bd78" text-anchor="middle" font-family="sans-serif" font-size="15" letter-spacing="5">SADA · CLASSICS</text>
+</svg>

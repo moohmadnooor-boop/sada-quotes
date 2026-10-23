@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 630" role="img" aria-labelledby="title desc">
+  <title id="title">Hamlet — William Shakespeare</title>
+  <desc id="desc">Original dramatic cover with a crown and theatrical red light.</desc>
+  <defs>
+    <linearGradient id="night" x2="1" y2="1"><stop stop-color="#12151c"/><stop offset=".55" stop-color="#3c202d"/><stop offset="1" stop-color="#17151d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#c88657" stop-opacity=".65"/><stop offset="1" stop-color="#c88657" stop-opacity="0"/></radialGradient>
+    <pattern id="stars" width="48" height="48" patternUnits="userSpaceOnUse"><circle cx="8" cy="11" r="1" fill="#f0cf9a" opacity=".42"/><circle cx="34" cy="33" r=".8" fill="#f0cf9a" opacity=".3"/></pattern>
+  </defs>
+  <rect width="420" height="630" fill="url(#night)"/><rect width="420" height="630" fill="url(#stars)"/>
+  <ellipse cx="210" cy="294" rx="195" ry="235" fill="url(#glow)"/>
+  <rect x="22" y="22" width="376" height="586" rx="4" fill="none" stroke="#c3a06d" stroke-width="2"/>
+  <path d="M59 22v586M361 22v586" stroke="#c3a06d" stroke-width="1" opacity=".55"/>
+  <path d="M134 190l14-39 31 28 31-62 31 62 31-28 14 39-16 16H150z" fill="#d6b77e"/>
+  <circle cx="148" cy="149" r="6" fill="#f0d7a7"/><circle cx="210" cy="117" r="7" fill="#f0d7a7"/><circle cx="272" cy="149" r="6" fill="#f0d7a7"/>
+  <path d="M154 206h112l-10 17h-92z" fill="#b68454"/>
+  <text x="210" y="306" text-anchor="middle" fill="#f1e3c8" font-family="Georgia,serif" font-size="58" letter-spacing="8">HAMLET</text>
+  <path d="M100 334h220" stroke="#c3a06d" stroke-width="1"/>
+  <text x="210" y="370" text-anchor="middle" fill="#d8c4a0" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">THE TRAGEDY OF</text>
+  <text x="210" y="519" text-anchor="middle" fill="#f1e3c8" font-family="Georgia,serif" font-size="21" letter-spacing="3">WILLIAM SHAKESPEARE</text>
+  <text x="210" y="552" text-anchor="middle" fill="#c8a976" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">A PLAY IN FIVE ACTS</text>
+  <path d="M95 579h230" stroke="#c3a06d" opacity=".6"/>
+</svg>

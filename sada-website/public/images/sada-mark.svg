@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="tile" x1="15" y1="12" x2="145" y2="150" gradientUnits="userSpaceOnUse"><stop stop-color="#30284A"/><stop offset="1" stop-color="#1A1727"/></linearGradient>
+    <linearGradient id="mint" x1="32" y1="44" x2="99" y2="121" gradientUnits="userSpaceOnUse"><stop stop-color="#A5F0D7"/><stop offset="1" stop-color="#55CBB5"/></linearGradient>
+    <linearGradient id="ivory" x1="103" y1="43" x2="129" y2="119" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF0D9"/><stop offset="1" stop-color="#E9D9C2"/></linearGradient>
+  </defs>
+  <rect x="3" y="3" width="154" height="154" rx="42" fill="url(#tile)" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="2"/>
+  <rect x="12" y="12" width="136" height="136" rx="35" stroke="#A5F0D7" stroke-opacity=".1"/>
+  <path d="M48 42C34 51 27 65 27 80C27 95 34 109 48 118" stroke="url(#mint)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M63 57C55 62 51 70 51 80C51 90 55 98 63 103" stroke="url(#mint)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M79 70C75 72 73 76 73 80C73 84 75 88 79 90" stroke="#A5F0D7" stroke-opacity=".75" stroke-width="6" stroke-linecap="round"/>
+  <path d="M99 58C99 50 105 44 113 44C121 44 127 50 127 58C127 70 121 79 108 86" stroke="url(#ivory)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M99 102C99 94 105 88 113 88C121 88 127 94 127 102C127 114 121 123 108 130" stroke="url(#ivory)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

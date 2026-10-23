@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 630" role="img" aria-labelledby="title desc">
+  <title id="title">Pride and Prejudice — Jane Austen</title>
+  <desc id="desc">Original illustrated cover in warm ivory and rose tones.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f8eed9"/><stop offset="1" stop-color="#e8d6b7"/></linearGradient>
+    <linearGradient id="rose" x2="1" y2="1"><stop stop-color="#bd7475"/><stop offset="1" stop-color="#7f454e"/></linearGradient>
+    <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".7" fill="#826d50" opacity=".12"/><circle cx="9" cy="8" r=".6" fill="#826d50" opacity=".1"/></pattern>
+  </defs>
+  <rect width="420" height="630" fill="url(#paper)"/><rect width="420" height="630" fill="url(#grain)"/>
+  <rect x="22" y="22" width="376" height="586" rx="4" fill="none" stroke="#8d7151" stroke-width="2"/>
+  <rect x="31" y="31" width="358" height="568" rx="3" fill="none" stroke="#b79565" stroke-width="1"/>
+  <path d="M210 96c-25-34-64 4-21 39 8 7 16 13 21 20 6-7 14-13 22-20 42-35 4-73-22-39z" fill="url(#rose)"/>
+  <path d="M210 155c-25 30-33 49-15 61 10 6 20-2 15-12-5 10-18 9-16-2 2-13 12-23 16-31 4 8 14 18 16 31 2 11-11 12-16 2-5 10 5 18 15 12 18-12 10-31-15-61z" fill="none" stroke="#71806b" stroke-width="3"/>
+  <path d="M181 172c-18 7-29 1-36-9 17-1 27 2 36 9zm58 0c18 7 29 1 36-9-17-1-27 2-36 9z" fill="#71806b"/>
+  <text x="210" y="284" text-anchor="middle" fill="#433b32" font-family="Georgia,serif" font-size="37" letter-spacing="2">PRIDE</text>
+  <text x="210" y="328" text-anchor="middle" fill="#9a5c5b" font-family="Georgia,serif" font-size="22" font-style="italic">&amp;</text>
+  <text x="210" y="375" text-anchor="middle" fill="#433b32" font-family="Georgia,serif" font-size="35" letter-spacing="1">PREJUDICE</text>
+  <path d="M112 404h196" stroke="#aa8661" stroke-width="1"/>
+  <text x="210" y="447" text-anchor="middle" fill="#74614d" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">A NOVEL</text>
+  <text x="210" y="544" text-anchor="middle" fill="#59483b" font-family="Georgia,serif" font-size="23" letter-spacing="3">JANE AUSTEN</text>
+  <circle cx="63" cy="63" r="4" fill="#a87b62"/><circle cx="357" cy="63" r="4" fill="#a87b62"/><circle cx="63" cy="567" r="4" fill="#a87b62"/><circle cx="357" cy="567" r="4" fill="#a87b62"/>
+</svg>

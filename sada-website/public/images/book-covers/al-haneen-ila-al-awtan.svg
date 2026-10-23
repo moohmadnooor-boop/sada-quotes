@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 680" role="img" aria-labelledby="title desc">
+  <title id="title">غلاف الحنين إلى الأوطان</title>
+  <desc id="desc">غلاف بلون الرمل والسماء وقت الغروب لكتاب الحنين إلى الأوطان للجاحظ</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#233f50"/><stop offset=".53" stop-color="#b97854"/><stop offset="1" stop-color="#e8c58a"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff1c8"/><stop offset="1" stop-color="#c18d55"/></linearGradient>
+  </defs>
+  <rect width="480" height="680" rx="22" fill="url(#sky)"/>
+  <rect x="23" y="23" width="434" height="634" rx="14" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M24 430Q90 396 150 425T278 416T456 404V656H24Z" fill="#263d38" opacity=".9"/>
+  <path d="M24 478Q110 455 190 482T340 467T456 477V656H24Z" fill="#142f2c"/>
+  <circle cx="240" cy="252" r="63" fill="#f5d79c" opacity=".93"/>
+  <path d="M88 481c35-62 72-95 112-111 12-5 25-2 32 8 8-11 22-13 36-7 41 16 77 50 124 108" fill="none" stroke="#f0d8a8" stroke-opacity=".82" stroke-width="3"/>
+  <path d="M117 480h243M145 455l-24 25m54-47-16 47m72-61v61m54-45 13 45m31-21 24 21" stroke="#f0d8a8" stroke-opacity=".66" stroke-width="2"/>
+  <text x="240" y="116" fill="#fff0cb" text-anchor="middle" font-family="serif" font-size="39" font-weight="700" direction="rtl">الحنين إلى الأوطان</text>
+  <text x="240" y="163" fill="#f3ddb0" text-anchor="middle" font-family="serif" font-size="25" direction="rtl">الجاحظ</text>
+  <text x="240" y="596" fill="#f0d9a7" text-anchor="middle" font-family="sans-serif" font-size="15" letter-spacing="5">SADA · CLASSICS</text>
+</svg>

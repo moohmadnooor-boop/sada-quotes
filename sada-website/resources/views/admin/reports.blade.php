@@ -1,0 +1,5 @@
+@extends('Layout.app')
+@section('title', 'مراجعة البلاغات')
+@section('content')
+<div class="mx-auto max-w-5xl px-4 py-12"><p class="eyebrow">إدارة المجتمع</p><h1 class="mb-7 mt-2 text-3xl font-black">البلاغات قيد المراجعة</h1><div class="space-y-4">@forelse($reports as $report)<article class="panel"><p class="text-sm text-white/50">بلاغ من {{ $report->user->name }} · {{ $report->created_at->diffForHumans() }}</p><blockquote class="my-4 text-xl">“{{ $report->quote?->content ?? 'تم حذف الاقتباس' }}”</blockquote><p class="text-sm">السبب: {{ $report->reason }}</p><div class="mt-5 flex gap-3"><form method="POST" action="{{ route('admin.reports.resolve', $report) }}">@csrf @method('PATCH')<button class="btn-ghost">إغلاق البلاغ</button></form><form method="POST" action="{{ route('admin.reports.delete', $report) }}">@csrf @method('DELETE')<button class="rounded-xl bg-red-500/15 px-4 py-3 text-sm text-red-200" onclick="return confirm('حذف الاقتباس نهائيًا؟')">حذف الاقتباس</button></form></div></article>@empty<div class="panel py-12 text-center text-white/55">لا توجد بلاغات جديدة.</div>@endforelse</div><div class="mt-6">{{ $reports->links() }}</div></div>
+@endsection
